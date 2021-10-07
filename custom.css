@@ -6,10 +6,16 @@ body{
     font-family: 'Sarabun', sans-serif;
 }
 
+.navbar-toggler{
+    border: none; 
+}
 
+.navbar-toggler{
+    border: none; 
+}
 
-
-
+.navbar-toggler-icon{
+}
 
 
 /* FONTS */
