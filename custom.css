@@ -1,9 +1,5 @@
-.btn-primary{
-    background-color: rebeccapurple;
-}
-
 body{
-    font-family: 'Sarabun', sans-serif;
+    font-family: 'Sarabun', sans-serif !important; 
 }
 
 h1{
@@ -13,8 +9,37 @@ h4{
     color: #36006C;
 }
 
-.carousel{
-    max-width: 200px
+.paper-container{
+    max-width: 400px;
+}
+
+.tutorial-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.navbar-light .navbar-nav .nav-link{
+    color: #36006C !important;
+}
+
+@media (min-width: 768px){
+    .tutorial-container{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+    }
+    .image-container{
+        margin: 60px
+    }
+}
+
+@media (max-width: 768px){
+    .heading-top{
+        margin-top: 20px
+    }
 }
 
 /* FONTS */
