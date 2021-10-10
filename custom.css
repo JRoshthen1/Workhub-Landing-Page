@@ -24,6 +24,18 @@ h4{
     color: #36006C !important;
 }
 
+footer {
+   color: white;
+    background-color: #36006C;
+     }
+
+ .containerli {
+ text-decoration: none !important;
+display: flex;
+flex-direction: row;
+}
+
+
 @media (min-width: 768px){
     .tutorial-container{
         display: flex;
