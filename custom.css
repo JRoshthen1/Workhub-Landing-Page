@@ -27,14 +27,29 @@ h4{
 footer {
    color: white;
     background-color: #36006C;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 20px;
      }
 
- .containerli {
- text-decoration: none !important;
+ .containerli li{
 display: flex;
 flex-direction: row;
 }
 
+.f-link{
+    list-style: none !important; 
+    text-decoration: none !important;
+    color: white;
+}
+.footcopy{
+    border-top: solid 1px white;
+    display: flex;
+    justify-content: center;
+    background-color: #36006C;
+    color: white;
+}
 
 @media (min-width: 768px){
     .tutorial-container{
